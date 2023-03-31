@@ -2,7 +2,7 @@
 header('Location:/html/slot.html');
 $server='localhost';
 $username ='root';
-$password = 'pro@gowtham@pro';
+$password = '';
 $database='airlines';
 $conn=new mysqli($server,$username,$password,$database);
 $email=$_POST['email'];
