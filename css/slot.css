@@ -1,0 +1,201 @@
+
+:root{
+position: absolute;
+width: 1980px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+}
+.slot{
+position: absolute;
+width: 1980px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+}
+
+.rect4{
+position: absolute;
+width: 914px;
+height: 296px;
+left: 1066px;
+top: 382px;
+
+background: rgba(0, 0, 0, 0.82);
+border-radius: 80px;
+}
+
+.ing
+{
+position: absolute;
+width: 146px;
+height: 146px;
+left: 1824px;
+top: 10px;
+
+}
+
+
+.rect2{
+position: absolute;
+width: 1210px;
+height: 102px;
+left: 325px;
+top: 23px;
+
+background: #FFFFFF;
+border-radius: 70px;
+}
+
+.rect3{
+position: absolute;
+width: 150px;
+height: 41px;
+left: 904px;
+top: 933px;
+
+background: #00E0FF;
+border-radius: 60px;
+}
+
+.book{
+position: absolute;
+width: 842px;
+height: 297px;
+left: 1102px;
+top: 400px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+
+color: #FF0000;
+
+}
+
+.red{
+position: absolute;
+width: 100px;
+height: 50px;
+left: 1350px;
+top: 1015px;
+
+background: rgba(255, 0, 0, 0.76);
+border-radius: 100px;
+}
+.city{
+position: absolute;
+width: 875px;
+height: 65px;
+left: 520px;
+top: 995px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.user{
+    position: absolute;
+width: 875px;
+height: 65px;
+left: -250px;
+top: 850px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 46px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#choose{
+position: absolute;
+width: 1768px;
+height: 85px;
+left: 46px;
+top: -1%;
+
+font-family: 'Hubballi';
+font-style: normal;
+font-weight: 300;
+font-size: 95px;
+line-height: 0px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #000000;
+
+}
+
+
+.rect5{
+position: absolute;
+width: 914px;
+height: 296px;
+left: 44px;
+top: 191px;
+
+background: rgba(255, 255, 255, 0.88);
+border-radius: 80px;
+}
+
+.enter{
+position: absolute;
+width: 901px;
+height: 255px;
+left: 62px;
+top: 210px;
+text-transform: capitalize;
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+
+color: #225425;
+
+}
+
+.rect6{
+position: absolute;
+width: 866px;
+height: 88px;
+left: 82px;
+top: 348px;
+background: rgba(9, 8, 8, 0.77);
+border-radius: 70px;
+color: white;
+font-size: 50px;
+}
+.contact{
+    position: absolute;
+width: 842px;
+height: 297px;
+left: 1102px;
+top: 540px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+color: white;
+}

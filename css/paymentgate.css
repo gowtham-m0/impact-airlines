@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: gothambook;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    }
+.img {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 636px;
+    height: 960px;
+    left: 1269px;
+    top: 0px;
+
+    background: url(wp4772087.jpg);
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.select {
+    background: #D9D9D9;
+    border-radius: 60px;
+    position: absolute;
+    width: 1000px;
+    height: 118px;
+    left: 140px;
+    top: 10px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 109px;
+
+    color: #151515;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1715px;
+    top: 0px;
+
+    background: url(download-removebg-preview.png);
+}
+
+.bank {
+    position: absolute;
+    width: 1161px;
+    height: 69px;
+    left: 38px;
+    top: 250px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+
+}
+
+
+.red {
+    position: absolute;
+    width: 128px;
+    height: 117px;
+    left: 1005px;
+    top: 280px;
+    border-radius: 100px;
+    background: #E80000;
+}
+
+.upi {
+    position: absolute;
+    width: 1161px;
+    height: 69px;
+    left: 47px;
+    top: 450px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+
+}
+
+.cash {
+    position: absolute;
+    width: 1161px;
+    height: 69px;
+    left: 38px;
+    top: 650px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+}
+
+.tcash {
+    position: absolute;
+    width: 1161px;
+    height: 69px;
+    left: 0px;
+    top: 870px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.green {
+    position: absolute;
+    width: 128px;
+    height: 117px;
+    left: 860px;
+    top: 470px;
+    border-radius: 100px;
+    background: #00FF0A;
+}
+
+#blue {
+    position: absolute;
+    width: 128px;
+    height: 117px;
+    left: 730px;
+    top: 670px;
+    border-radius: 100px;
+    background: #000AFF;
+}

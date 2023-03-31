@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+  }
+     
+    .rect3{
+    position: absolute;
+    width: 1825px;
+    height: 756px;
+    left: 46px;
+    top: 102px;
+    
+    background: #D9D9D9;
+    border-radius: 70px;
+    }
+    .body{
+        width: 100%;
+        height: 100vh;
+        background-color: #ffffff;
+        font-family: gothambook;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        }
+    .entp{
+    position: absolute;
+    width: 900px;
+    height: 52px;
+    left: 240px;
+    top: 130px;
+    
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    }
+    
+    
+    
+    .pay{
+    position: absolute;
+    width: 594px;
+    height: 213px;
+    left: 1240px;
+    top: 640px;
+    border-radius: 20px;
+    background: url(payment.png);
+    }
+    
+    #card{
+    position: absolute;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: left;
+    width: 974px;
+    height: 98px;
+    left: 197px;
+    top: 205px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 34px;
+    color: rgba(105, 100, 100, 0.41);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+    
+    
+
+    .paytome{
+        position: absolute;
+            width: 654px;
+            height: 580px;
+            left: 300px;
+            top: 260px;
+            border-radius: 20px;
+    }
+    
+    .nopay{
+    position: absolute;
+    width: 489px;
+    height: 179px;
+    left: 1266px;
+    top: 470px;
+    
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #000000;
+    }
+    
+
+    
+    .rect20{
+    position: absolute;
+    width: 277px;
+    height: 41px;
+    left: 625px;
+    top: 882px;
+    
+    background: #D9D9D9;
+    border-radius: 60px;
+    }
+    
+    
+    .sub{
+    position: absolute;
+    width: 189px;
+    height: 39px;
+    left: 691px;
+    top: 870px;
+    
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 31px;
+    
+    color: #AE6900;
+    }
+    
+    
+    .rect21{
+    position: absolute;
+    width: 518px;
+    height: 367px;
+    left: 1249px;
+    top: 161px;
+    
+    background: rgba(140, 140, 140, 0.33);
+    }
+    
+    .price{
+    position: absolute;
+    width: 514px;
+    height: 46px;
+    left: 1453px;
+    top: 145px;
+    
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #000000;
+    }
+    
+    .rect22{
+    position: absolute;
+    width: 490px;
+    height: 64px;
+    left: 1265px;
+    top: 215px;
+    
+    background: #D9D9D9;
+    border-radius: 50px;
+    }
+    .logo{
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 1630px;
+    top: -13px;
+    
+    background: url(download-removebg-preview.png);
+    }
+    
+    .tax{
+    position: absolute;
+    width: 114px;
+    height: 46px;
+    left: 1286px;
+    top: 294px;
+    
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #000000;
+    }
+    
+    
+    .rect23{
+    position: absolute;
+    width: 365px;
+    height: 64px;
+    left: 1380px;
+    top: 305px;
+    
+    background: #D9D9D9;
+    border-radius: 50px;
+    }
+    
+    .total{
+    
+    position: absolute;
+    width: 514px;
+    height: 46px;
+    left: 1300px;
+    top: 365px;
+    
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #000000;
+    }
+    
+    .rect24{
+    position: absolute;
+    width: 490px;
+    height: 64px;
+    left: 1265px;
+    top: 434px;
+    
+    background: #D9D9D9;
+    border-radius: 50px;
+    }
+    
+    
+    .seven{
+        position: absolute;
+        font-size: 40px;
+    
+        left: 1425px;
+        top: 200px;
+       color: black;
+    }
+    
+    .tax1{
+        position: absolute;
+        font-size: 40px;
+    
+        left: 1425px;
+        top: 290px;
+       color: black;
+    
+    }
+    
+    .totalseven{
+        position: absolute;
+        font-size: 40px;
+    
+        left: 1425px;
+        top: 420px;
+       color: black;
+    
+    }
+    
+    

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Confirm your slot</title>
+        <link rel="icon" type="icon" href="/img/download.png" >
+        <link rel="stylesheet" type="text/css" href="/css/slot.css">
+    </head>
+    <body>
+        <img class="slot" src="/img/slot.jpg" alt="photo">
+        <img class="ing" src="/img/download.png" alt="logo">
+        <div>
+            <div>
+                <p class="rect2"></p>
+                <p id="choose">Choose the City,Airport</p>
+            </div>
+            <div>
+                <p class="rect4"></p>
+                <p class="book">The booking details will be sent to your email or mobile number</p>
+                <p class="contact">Contact us on impactairlines@gmail.com for further details</p>
+            </div>
+            <div>
+                <p class="city">Click here to view list of cities and airports-></p>
+                 <a href="/html/city.html"><p class="red"></p></a>
+            </div>
+            <div>
+                <p class="rect5"></p>
+                <p class="enter">Choose your city, Airport(ex: Bengaluru,Kempegowda international airport)</p>
+                <form action="/php/city.php" method="post">
+                    <input type="text" class="rect6"  name="city" required></input>
+                    <button value="submit" class="rect3" style="font-size: 25px;">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+
+
+</html>
+
+

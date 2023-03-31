@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
+    <link rel="icon" type="icon" href="/img/download.png">
+    <style>
+        input[type='text'] {
+            text-align: center;
+            font-size: 50px;
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="head1">IMPACT AIRLINES</h1>
+        <img class="image" src="/img/login.jpg" alt="img">
+        <img class="logo" src="/img/download.png" alt="icon">
+    </div>
+    <div class="rect2"></div>
+    <div>
+
+        <p class="login">LOG-IN</p>
+        <div id="rect11"></div>
+        <p class="new">new user?</p>
+        <a href="/html/signup.html" >
+            <p class="sign" id="n">sign-in</p>
+        </a>
+        <a href="/html/slot.html">
+            <p class="submit">SUBMIT</p>
+        </a>
+
+    </div>
+    <div>
+        <form action="/php/login.php" method="post">
+            <label class="email"  name="Email_ID">EMAIL:</label>
+            <input type="text" class="rect3" id="email1" required>
+            <label class="pass" name="password" >PASSWORD:</label>
+            <input type="text" type="password" id="password1" class="rect4" required>
+        </form>
+    </div>
+    <div>
+
+        <div class="rect5"></div>
+        <p class="your">YOUR WINGS</p>
+        <p class="already">ALREADY EXIST</p>
+        <div class="rect6"></div>
+        <p class="all">ALL YOU</p>
+        <p class="have">HAVE TO DO</p>
+        <p class="is">IS FLY</p>
+
+
+    </div>
+</body>
+
+</html>

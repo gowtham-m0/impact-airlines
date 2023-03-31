@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title> signup page</title>
+        <link rel="stylesheet" type="text/css" href="/css/signup.css"> </link>
+        <link rel="icon" type="image/icon type" href="/img/download.png">
+        <style>
+            input[type='text']{
+                font-size: 30px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 class="h1">IMPACT AIRLINES</h1>
+            <img class="logo" src="/img/download.png" alt="logo ">
+        </div>
+        <div>
+            <div class="rect2">
+            </div><p class="fly">"Flying Might Not Be All Plain Sailing, But The Fun Of It Is Worth The Price."</p>
+        </div>
+
+
+        <div>
+            <div class="rect1">
+            </div> 
+            <div>
+                <p class="email">Email ID:</p>
+                <p class="first">First name:</p>
+                <p class="last">Last name:</p>
+                <p class="city">City:</p>
+                <p class="mobile">Mobile No:</p>
+                <p class="pass">Password:</p>
+                <p class="repass"> Re-enter Password:</p>
+                <p class="already"> Already a user?</p>
+                <a link="html" href="/html/login.html"><p class="login"> login now</p></a>
+                
+                
+            </div>  
+            <form action="/php/connect.php" method="post">
+            <input type="text" class="rect3" name="email" required></input>
+            <input type="text" class="rect4" name="fname" required></input>
+            <input type="text" class="rect5" name="lname" required></input>
+            <input type="text" class="rect6" name="city" required></input>
+            <input type="text" class="rect7" name="mobile" required></input>
+            <input type="password" class="rect8" name="pass" required></input>
+            <input type="password" class="rect10" name="repass" required></input>
+            <button class="rect11" value="Submit" style="color: black;font-size: 25px;">Submit now</button>
+           
+            </form>
+        </div>
+    </body>
+
+</html>z

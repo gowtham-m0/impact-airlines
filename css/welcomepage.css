@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+:root {
+    position: absolute;
+    width: 1980px;
+    height: 947px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: gothambook;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    }
+.head {
+    position: absolute;
+    width: 934px;
+    height: 120px;
+    left: 533px;
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 1px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img {
+    position: absolute;
+    width: 1980px;
+    height: 947px;
+    top: 142px;
+    mix-blend-mode: lighten;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.let {
+    position: absolute;
+    width: 652px;
+    height: 240px;
+    left: 80px;
+    top: 720px;
+    color: #eeeeee;
+
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.blank {
+    background: #F9F9F9;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 280px;
+    top: 830px;
+}
+
+
+.Join {
+    position: absolute;
+    width: 213px;
+    height: 83px;
+    left: 305px;
+    top: 811px;
+    font-family: 'IBM Plex Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #f70505;
+}
+
+.user {
+    position: absolute;
+    width: 652px;
+    height: 240px;
+    left: 1350px;
+    top: 720px;
+    color: #eeeeee;
+
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    ;
+
+}
+
+.blank2 {
+    background: #F9F9F9;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 1550px;
+    top: 830px;
+
+}
+
+.login {
+    position: absolute;
+    width: 313px;
+    height: 83px;
+    left: 1563px;
+    top: 813px;
+    font-family: 'IBM Plex Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #f70505;
+
+}
+.logo{
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: -5px;
+    top: 900px;
+    
+    background: url(download-removebg-preview.png);
+    }
